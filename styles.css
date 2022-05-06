@@ -1,0 +1,53 @@
+
+*{
+    margin:0;
+    padding:0;
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    color:darkgoldenrod;
+    font-size: 72px;
+    font-family: garamond;
+    text-shadow: 4px 4px 4px grey;
+    text-align: center;
+    margin: 6px;
+    padding: 40px;
+    letter-spacing: 5px;
+    outline: 2px ridge darkgoldenrod;
+    border-radius: 100px;
+
+}
+
+h2{
+    color: brown;
+    font-size: 20px;
+    font-family: garamond;
+    margin: 50px;
+    letter-spacing: 3px;
+    display:flex;
+    justify-content: center;
+}
+
+p{
+    color: brown;
+    font-size: 20px;
+    font-family: garamond;
+    margin: 20px;
+    text-align:center;
+}
+
+
+button{
+    color: black;
+    font-size: 20px;
+    font-family: garamond;
+    margin: 20px;
+    background-color: goldenrod;
+}

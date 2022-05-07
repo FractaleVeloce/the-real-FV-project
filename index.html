@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css"> <!--efface tous les styles de navigateur-->
     <link rel="stylesheet" href="styles.css">
     <title>EDITEUR DE PERSONNAGE</title>
     
@@ -12,16 +13,31 @@
     <h1>SildakiL</h1>
     
     <h2> Bienvenue sur mon super éditeur de personnage !</h2>
-    <p>Ici tu vas pouvoir créer ton personnage de A à Z. Il te suffit de suivre les étapes et tout va bien se passer !</P>
-    <p>Pour commencer, j'ai besoin de quelques informations... </p>
-        <form>
-            <label>Prénom:<input type="text" value="Ex: Izdrül"></input></label><br>
-            <label>Nom:<input type="text" value="Ex: McGwernic"></input></label><br>
-            <label>Age:<input type="text" value="Ex: 722 ans"></input></label><br>
-        
-            <button type="submit">On y va !</button>
-        </form>
+    <p class="text">Ici tu vas pouvoir créer ton personnage de A à Z. Il te suffit de suivre les étapes et tout va bien se passer !</P>
+    <p class="text">Pour commencer, j'ai besoin de quelques informations... </p>
+    
+    
 
+        <form>
+            <div class="text row">
+                <label>Prénom :&nbsp</label>
+                <input type="text" value="Ex: Izdrül"></input>
+            </div>
+            <div class="text row">
+                <label>Nom :&nbsp</label>
+                <input type="text" value="Ex: McGwernic"></input>
+            </div>
+            <div class="text row">
+                <label>Age :&nbsp</label>
+                <input type="text" value="Ex: 722 ans"></input>
+                
+            </div>
+        </form>
+            <span>
+            <button type="submit" class="text">On y va ! <span class="icon">auto_stories</span></button>
+            </span>
+        
+    
 
 
 
